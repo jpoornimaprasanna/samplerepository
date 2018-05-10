@@ -1,0 +1,187 @@
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 400;
+	padding:0;
+	margin:0;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+	text-decoration:none;
+	padding:0;
+	margin:0;
+    outline: medium none !important;
+}
+
+a:hover{
+	text-decoration: none;
+    outline: medium none !important;
+}
+
+a:focus{
+	text-decoration: none;
+    outline: medium none !important;
+}
+
+img{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.clear{
+    clear: both;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+/********************************************************************/
+
+.feedback_container{
+    text-align: center;
+    padding: 50px;
+}
+
+.title_feedback{
+    font-size: 31px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+
+.rating_div, .question{
+    margin-bottom: 80px;
+}
+
+.smiley {
+    width: 72%;
+    margin: auto;
+}
+
+.smiley span{
+    display: block;
+    float: left;
+    margin: 0 20px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.smiley span img{
+    width: 100%;
+    height: auto;
+}
+
+a.active_qa{
+    background: #f18700;
+    color: #fff;
+}
+
+.comment_div textarea{
+    width: 100%;
+    border: 2px solid #f18700;
+    resize: none;
+    outline: 0;
+    font-weight: 800;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.submit_btn{
+    margin-top: 40px;
+    
+}
+
+.submit_btn a{
+    display: inline-block;
+    background: #f18700;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 40px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 800px){
+    
+    .smiley {
+        width: 97%;
+    }
+    
+    .smiley span{
+        width: 50px;
+        height: 50px;
+    }
+    
+}
+
+@media only screen and (max-width: 640px){
+    
+    .feedback_container {
+        text-align: center;
+        padding: 30px;
+    }
+    
+    .title_feedback {
+        font-size: 24px;
+    }
+    
+    .smiley {
+        width: 100%;
+    }
+    
+    .smiley span{
+        width: 40px;
+        height: 40px;
+        margin: 0 10px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
